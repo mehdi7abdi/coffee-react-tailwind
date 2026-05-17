@@ -93,12 +93,11 @@ export default function Menu() {
         {Coffee.map((coffee, index) => (
           <article
             key={index}
-            className="
+            className="relative
               bg-[#fff8f1]
               border
               border-[#F2E6D9]
               rounded-2xl
-              overflow-hidden
               flex
               flex-col
               items-center
@@ -154,7 +153,8 @@ export default function Menu() {
               </span>
 
               <button
-                className="
+                className="absolute
+                -bottom-7
                   mt-2
                   inline-block
                   w-fit
