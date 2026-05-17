@@ -121,7 +121,7 @@ export default function Menu() {
             />
 
             {/* CONTENT */}
-            <div className="p-6 flex flex-col items-center gap-3">
+            <div className="p-6 flex flex-col items-center gap-2">
 
               <h2
                 className="
@@ -147,6 +147,7 @@ export default function Menu() {
                   text-xl
                   font-bold
                   text-primary
+                  pb-5
                 "
               >
                 ${coffee.price}
